@@ -1,0 +1,13 @@
+npm install -g json-server@0.17.4
+
+para apresentar os videos
+json-server --watch backend/videos.json
+
+npm init
+
+npm init @eslint/config
+
+
+npx eslint . (todos arquivos do projeto)
+
+
