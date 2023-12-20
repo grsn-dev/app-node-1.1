@@ -7,7 +7,13 @@ npm init
 
 npm init @eslint/config
 
-
 npx eslint . (todos arquivos do projeto)
 
+Instalar o ESLINT da Microsoft no Extensions
 
+Padronizar o código
+[PRETTIER](https://prettier.io/docs/en/install)
+
+OpenUserSettings
+
+"editor.formatOnSave": true
