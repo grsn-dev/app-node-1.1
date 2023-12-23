@@ -1,5 +1,11 @@
 npm install -g json-server@0.17.4
 
+npm install json-server@0.17.4 -D (só desenv)
+
+npm uninstall -g json-server
+
+npx json-server -v
+
 para apresentar os videos
 json-server --watch backend/videos.json
 
@@ -17,3 +23,35 @@ Padronizar o código
 OpenUserSettings
 
 "editor.formatOnSave": true
+
+npm install --help
+npx --help
+npm init --help
+
+npm init --yes ou -y
+Cria o arquivo package.json.
+
+npm init <inicializador>
+Executa o pacote create-<inicializador>.
+Se o <inicializador> estiver na sintaxe @<escopo>/<pacote>,
+será executado o pacote @<escopo>/create-<pacote>.
+
+npm install <pacote>[@<versão>] --save-dev ou -D, --save-exact ou -E Instala o <pacote>.
+Se a <versão> não for especificada, será instalada a mais recente.
+
+npx <pacote>[@<versão>] Executa o <pacote>.
+Se a <versão> não for especificada, será executada a mais recente.
+<comando> --help Mostra uma ajuda rápida do <comando>.
+
+npm help <comando> Abre uma página offline da documentação do <comando>,
+mostrando informações completas e detalhadas.
+
+npm install - autaliza pacotes
+
+## desinstalar json-server global
+
+npm uninstall -g json-server
+
+## executar o json-server
+
+npx json-server --watch backend/videos.json
